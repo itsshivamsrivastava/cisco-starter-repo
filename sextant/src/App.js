@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
 import Nav from './Nav';
 import Banner from './Banner';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-// import Card from './Card';
+import Card from './Card';
+import UsersIPaddress from './UsersIPaddress';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Banner />
-      {/* <Card /> */}
+      <Card />
     </div>
   );
 }

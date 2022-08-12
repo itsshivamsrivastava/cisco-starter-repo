@@ -32,6 +32,21 @@
   height: 60vh;
 }
 
+.card{
+  width: 400px;
+  /* height: 400px; */
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #61dafb;
+  border: 2px solid #000;
+}
+
+.section{
+  background-color: bisque;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
